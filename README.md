@@ -1,2 +1,4 @@
-# rTool
-I wanted to develop an alternative application to Steam Tools. I did it with AI. I don't know how to code, and I'm not very familiar with software, to be honest, but I did it just out of curiosity. I wondered if someone who doesn't understand software could do it. I think it worked.
+If you run import.reg in the reg folder, right-click on the downloaded manifest/lua file and select import rTools. Clicking on this will automatically import it.
+
+
+and if you open the run tool, Steam Family Pin Bypass will open, and you can bypass the Pin from here. SOURCE:https://github.com/Ne3tCode/SPPRTool
