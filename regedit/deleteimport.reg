@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+; --- USER LEVEL (HKCU) ---
+[-HKEY_CURRENT_USER\Software\Classes\*\shell\rToolImport]
+[-HKEY_CURRENT_USER\Software\Classes\Directory\shell\rToolImport]
+[-HKEY_CURRENT_USER\Software\Classes\Folder\shell\rToolImport]
+
+; --- MACHINE LEVEL (HKLM) ---
+[-HKEY_LOCAL_MACHINE\Software\Classes\*\shell\rToolImport]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Directory\shell\rToolImport]
+[-HKEY_LOCAL_MACHINE\Software\Classes\Folder\shell\rToolImport]
+
+; --- HKCR VIEW (temizlik için) ---
+[-HKEY_CLASSES_ROOT\*\shell\rToolImport]
+[-HKEY_CLASSES_ROOT\Directory\shell\rToolImport]
+[-HKEY_CLASSES_ROOT\Folder\shell\rToolImport]

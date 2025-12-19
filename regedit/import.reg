@@ -1,0 +1,29 @@
+Windows Registry Editor Version 5.00
+
+; --- CLEAN old entries (optional) ---
+[-HKEY_CLASSES_ROOT\*\shell\rToolImport]
+[-HKEY_CLASSES_ROOT\Directory\shell\rToolImport]
+[-HKEY_CLASSES_ROOT\Folder\shell\rToolImport]
+
+; --- USER LEVEL (no admin usually) ---
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\rToolImport]
+@="Import to rTool"
+"Icon"="C:\\Users\\ezeru\\Desktop\\rTool.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\*\shell\rToolImport\command]
+@="\"C:\\Users\\ezeru\\Desktop\\rTool.exe\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\rToolImport]
+@="Import to rTool"
+"Icon"="C:\\Users\\ezeru\\Desktop\\rTool.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\rToolImport\command]
+@="\"C:\\Users\\ezeru\\Desktop\\rTool.exe\" \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Folder\shell\rToolImport]
+@="Import to rTool"
+"Icon"="C:\\Users\\ezeru\\Desktop\\rTool.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Folder\shell\rToolImport\command]
+@="\"C:\\Users\\ezeru\\Desktop\\rTool.exe\" \"%1\""
